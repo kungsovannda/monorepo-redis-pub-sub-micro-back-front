@@ -1,0 +1,9 @@
+@import "@repo/tailwindcss/globals.css";
+
+body {
+  background: #ece7dc;
+}
+
+html:has(dialog[open]) {
+  overflow: hidden;
+}

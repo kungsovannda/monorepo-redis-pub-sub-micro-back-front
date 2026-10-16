@@ -1,0 +1,5 @@
+@import "@repo/tailwindcss/globals.css";
+
+body {
+  background: #ece7dc;
+}
