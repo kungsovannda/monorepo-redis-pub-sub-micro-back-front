@@ -1,0 +1,11 @@
+plugins {
+    id "java";
+}
+
+group = "kh.edu.istad"
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}

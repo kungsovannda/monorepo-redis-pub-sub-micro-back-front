@@ -1,0 +1,11 @@
+plugins {
+    id 'java-common-conventions'
+    id 'io.spring.dependency-management'
+}
+
+group = "kh.edu.istad"
+
+
+repositories {
+    mavenCentral()
+}

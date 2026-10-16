@@ -1,0 +1,11 @@
+plugins {
+    id "spring-common-conventions"
+    id "org.springframework.boot"
+}
+
+group = "kh.edu.istad"
+
+
+tasks.withType(Test).configureEach {
+    useJUnitPlatform()
+}

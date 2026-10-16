@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: publisher
+
+server:
+  port: 0

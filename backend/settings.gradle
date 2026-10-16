@@ -1,0 +1,6 @@
+rootProject.name = 'backend'
+
+includeBuild("build-logic")
+includeBuild("common")
+includeBuild("microservices")
+includeBuild("spring-cloud")

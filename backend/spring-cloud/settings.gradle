@@ -1,0 +1,8 @@
+pluginManagement {
+    includeBuild("../build-logic")
+}
+
+include "gateway"
+include "eureka"
+
+rootProject.name = "spring-cloud"

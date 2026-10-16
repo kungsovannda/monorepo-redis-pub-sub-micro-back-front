@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: subscriber
+
+server:
+  port: 0

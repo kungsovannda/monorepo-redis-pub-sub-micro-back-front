@@ -1,0 +1,10 @@
+pluginManagement {
+    includeBuild("../build-logic")
+}
+
+include "common-domain"
+include "common-webmvc"
+include "common-webflux"
+include "common-eureka-client"
+
+rootProject.name = "common"

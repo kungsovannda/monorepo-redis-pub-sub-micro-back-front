@@ -1,0 +1,16 @@
+plugins {
+    id 'spring-boot-common-conventions'
+    id 'spring-cloud-common-conventions'
+}
+
+dependencies {
+    implementation "kh.edu.istad:common-domain"
+    implementation "kh.edu.istad:common-webflux"
+    implementation "kh.edu.istad:common-eureka-client"
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis-reactive'
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+    implementation 'org.springframework:spring-messaging'
+    testImplementation 'org.springframework.boot:spring-boot-starter-data-redis-reactive-test'
+    testImplementation 'org.springframework.boot:spring-boot-starter-webflux-test'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}

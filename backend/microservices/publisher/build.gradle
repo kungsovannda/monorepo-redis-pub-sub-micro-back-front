@@ -1,0 +1,18 @@
+plugins {
+    id 'spring-boot-common-conventions'
+    id 'spring-cloud-common-conventions'
+}
+
+group = 'kh.edu.istad'
+version = '0.0.1-SNAPSHOT'
+description = 'publisher'
+
+dependencies {
+    implementation "kh.edu.istad:common-domain"
+    implementation "kh.edu.istad:common-webmvc"
+    implementation "kh.edu.istad:common-eureka-client"
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+    implementation 'org.springframework.boot:spring-boot-starter-webmvc'
+    testImplementation 'org.springframework.boot:spring-boot-starter-data-redis-test'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}

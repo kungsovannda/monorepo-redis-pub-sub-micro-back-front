@@ -1,0 +1,8 @@
+pluginManagement {
+    includeBuild("../build-logic")
+}
+
+include "publisher"
+include "subscriber"
+
+rootProject.name = "microservices"
